@@ -4,22 +4,12 @@
     box-sizing: border-box;
 }
 
-/*.mobile{
-    display: none;
-}*/
-
 h3{
-    font-size: 35px;
-}
-
-.logo{
     display: flex;
-}
-
-.logo > h3{
-    display: flex;
+    font-size: 30px;
     align-self: center;
 }
+
 
 header {
     display: flex;

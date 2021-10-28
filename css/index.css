@@ -39,18 +39,3 @@ nav > a{
     font-size: 18px;
     color: aliceblue;
 }
-.shopsection1 {
-    display: flex;
-    background-color: black;
-    padding: 30px 20px;
-    margin-bottom: 10px;
-}
-
-.shopsection1 > img {
-    width: 60%;
-    justify-content: ;
-}
-
-.shopsection1-content {
-    color:white;
-}

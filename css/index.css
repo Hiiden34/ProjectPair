@@ -10,11 +10,101 @@ h3{
     align-self: center;
 }
 
+.carousel-item{
+    height: 700px;
+    border-bottom: 1px solid black;
+    background-color: #171717;
+}
+
+.carousel-item > img{
+    height:100%;
+    width:60%;
+}
+
+.carousel-item > h5, .carousel-item > p{
+    margin-bottom: 50px;
+}
 
 header {
     display: flex;
     background-color: #171717;
 }
+
+/* Feature Product */
+
+.fproducttitle > h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fproductssection{
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.fproductleft{
+    display: flex;
+    flex: 1 1 0;
+    justify-content: start;
+}
+
+.fproductcenter{
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+}
+
+.fproductright{
+    display: flex;
+    flex: 1 1 0;
+    justify-content: end;
+}
+/*End of Featured Product*/
+
+/*About Techlaza(homepage)*/
+.abouttechlaza{
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.abtechlazatitle > h1, .abtechlazatitle > p{
+    text-align: center;
+}
+
+.abtechlazatitle{
+    border-top: 1px solid grey;
+    padding-top: 25px;
+}
+/*End of About TechLaza*/
+
+/*About Us*/
+
+.companyVision{
+    border-bottom: 1px solid lightgrey;
+    margin-top: 25px;
+}
+
+.companyVision > h1, .companyVision > p{
+    text-align: center;
+}
+
+.aboutteamtitle{
+    margin-top:25px;
+}
+
+.aboutteamtitle > h1, .aboutteamtitle > p{
+    text-align: center;
+}
+
+.aboutteamcard{
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*End of About us*/
 
 nav{
     display: flex;
@@ -28,4 +118,6 @@ nav > a{
     text-decoration: none;
     font-size: 18px;
     color: aliceblue;
+    text-align: center;
 }
+

@@ -64,6 +64,7 @@ header {
 /*End of Featured Product*/
 
 /*About Techlaza(homepage)*/
+
 .abouttechlaza{
     display: flex;
     padding-bottom: 25px;
@@ -77,6 +78,7 @@ header {
     border-top: 1px solid grey;
     padding-top: 25px;
 }
+
 /*End of About TechLaza*/
 
 /*About Us*/
@@ -121,3 +123,34 @@ nav > a{
     text-align: center;
 }
 
+/*Mobile Version*/
+
+@media only screen and (max-width:700px) {
+    
+    /*Homepage mobile*/
+    .carousel-item{
+        height: 60%;
+    }
+
+    .fproductssection{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+
+    .fproductssection > .fproductleft, .fproductssection > .fproductcenter, .fproductssection > .fproductright{
+        display: flex;
+        flex: 1 1 0;
+        width: 20%;
+        margin: 0px 0px;
+        justify-content: center;
+    }
+
+    .fproductssection > .fproductleft > img, .fproductssection > .fproductcenter > img, .fproductssection > .fproductright > img{
+        height: 400px;
+        width: 600px;
+        padding-left: 70px;
+        margin-bottom: 25px;
+    }
+    /*End of Homepage Mobile*/
+}

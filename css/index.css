@@ -32,7 +32,7 @@ header {
 
 /* Homepage Feature Product */
 
-.fproducttitle > h1{
+.fproducttitle > h1, .fproducttitle > p{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -41,7 +41,7 @@ header {
 .btn{
     align-items: center;
     width: 190px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .fproductssection{
@@ -59,6 +59,8 @@ header {
 }
 
 .fproductleft > img{
+    border: 5px solid grey;
+    border-radius: 25px;
     height: 100%;
     width: 80%;
 }
@@ -73,6 +75,8 @@ header {
 
 .fproductcenter > img{
     height: 100%;
+    border: 5px solid grey;
+    border-radius: 25px;
     width: 80%;
 }
 
@@ -84,8 +88,16 @@ header {
 }
 
 .fproductright > img{
+    border: 5px solid grey;
+    border-radius: 25px;
     height: 100%;
     width: 80%;
+}
+
+.fproductright > img:hover, .fproductcenter > img:hover, .fproductleft > img:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 200ms ease-in;
 }
 /*End of Featured Product*/
 
@@ -180,8 +192,9 @@ nav > a{
     .fproductssection > .fproductleft > img, .fproductssection > .fproductcenter > img, .fproductssection > .fproductright > img{
         height: 400px;
         width: 600px;
-        padding-left: 70px;
+        margin-left: 70px;
         margin-bottom: 25px;
+        
     }
     /*End of Homepage Mobile*/
 }

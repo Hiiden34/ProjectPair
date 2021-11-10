@@ -121,26 +121,3 @@ nav > a{
     text-align: center;
 }
 
-/* Shop Categories */
-.cat-title > h1 {
-    text-align: center;
-}
-
-.cat-title > p {
-    text-align: center;
-}
-
-.col1, .col2, .col3, .col4 {
-    display: flex;
-    margin-bottom: 50px;;
-}
-
-.card1, .card2, .card3, .card4 {
-    width: 18rem;
-}
-
-.card1 > img , .card2 > img, .card3 > img, .card4 > img {
-    width: 100%;
-}
-
-/*End of Shop*/

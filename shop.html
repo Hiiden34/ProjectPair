@@ -75,8 +75,7 @@
                         <div class="card1">
                             <img src="images/cat-iphone.png" class="card-img-top1" alt="...">
                             <div class="card-body1">
-                                <p class="card-text1">Sample image only. Text will go here, should be the name of each
-                                    category. E.g. Phones </p>
+                                <h2 class="card-text1">Phones </h2>
                             </div>
                         </div>
                     </div>
@@ -84,8 +83,7 @@
                         <div class="card2">
                             <img src="images/cat-iphone.png" class="card-img-top2" alt="...">
                             <div class="card-body2">
-                                <p class="card-text2">Sample image only. Text will go here, should be the name of each
-                                    category. E.g. Phones</p>
+                                <h2 class="card-text2">Tablets</h2>
                             </div>
                         </div>
                     </div>
@@ -93,8 +91,7 @@
                         <div class="card3">
                             <img src="images/cat-iphone.png" class="card-img-top3" alt="...">
                             <div class="card-body3">
-                                <p class="card-text3">Sample image only. Text will go here, should be the name of each
-                                    category. E.g. Phones</p>
+                                <h2 class="card-text3">Laptops</h2>
                             </div>
                         </div>
                     </div>
@@ -102,8 +99,7 @@
                         <div class="card4">
                             <img src="images/cat-iphone.png" class="card-img-top4" alt="...">
                             <div class="card-body4">
-                                <p class="card-text4">Sample image only. Text will go here, should be the name of each
-                                    category. E.g. Phones</p>
+                                <h2 class="card-text4">Accessories</h2>
                             </div>
                         </div>
                     </div>
@@ -119,48 +115,203 @@
                 </p>
             </div>
 
-            <!--Product Cards-->
+            <!--products jean html-->
 
-            <div class="card-deck">
-                <div class="card">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to show that equal
-                            height action.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+
+            <div class="jumbotron">
+                <!--<h1 class="display-4">Products</h1>-->
+                <div id="list-items">
+                    <div id='row' class="row">
+                        <!-- hardcode
+                        <div class="col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/samplePhone.jpg" class="card-img-top" alt="image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cat Tee Black T-Shirt pink pink</h5>
+                                    <p class="card-text">4 MSL</p>
+                                    <a href="#" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#productModal">More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/newTablet.png" class="card-img-top" alt="image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dark Thug Blue-Navy T-Shirt</h5>
+                                    <p class="card-text">Front print and paisley print</p>
+                                    <a href="#" class="btn btn-primary">More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/samplePhone.jpg" class="card-img-top" alt="image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sphynx Tie Dye Wine T-Shirt</h5>
+                                    <p class="card-text">GPX Poly 1</p>
+                                    <a href="#" class="btn btn-primary">More</a>
+                                </div>
+                            </div>
+                        </div>
+                    end  of hardcode -->
+                    </div> <!-- End of row -->
+                </div> <!-- End of List item div -->
+            </div> <!-- End of Jumbotron div -->
+
+
+            <!-- (4) Model for contact from menu -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <p>Contact details</p>
+                        </div>
+                        <div class="modal-body">
+                            <p>For more enquiries, please contact +65-97887434 or email at contactsg@generation.org
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a class="btn btn-primary" data-dismiss="modal">Close</a>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!--End of Product Cards-->
+
+            <!-- Modal popup for each product-->
+            <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <p id="modalName">Cat Tee Black T-Shirt</p>
+                        </div>
+                        <div class="modal-body">
+                            <img id="modalImg"
+                                src="http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif"
+                                class="card-img-top" alt="image">
+                            <hr>
+                            <b>Style:</b> <span id="modalStyle">Black with custom print</span><br />
+                            <b>Price:</b> <span id="modalPrice">10.9</span><br />
+                        </div>
+                        <div class="modal-footer">
+                            <a class="btn btn-primary" data-dismiss="modal">Close</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- SCRIPTS AND STYLES-->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+                integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+                crossorigin="anonymous">
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                crossorigin="anonymous"></script>
+
+            <!--<link href="css/styles.css" rel="stylesheet">-->
+            <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+            <script src="js/shopScripts.js"></script>
+            <script src="js/shopPage.js"></script>
+            <!--end jean html-->
+
+            <!--product cards-->
+            <!--
+             <div class="product-container">
+                <!--first row-->
+            <!--.
+                <div class="row row-cols-3">
+                    <div class="prod-col1">
+                        <div class="prod-card1">
+                            <img src="images/samplePhone.jpg" class="prod-card-img-top1" alt="...">
+                            <div class="prod-card-body1">
+                                <p class="prod-card-text1">Sample image only. Text will go here, should be the name of
+                                    each
+                                    product. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prod-col2">
+                        <div class="prod-card2">
+                            <img src="images/newTablet.png" class="prod-card-img-top2" alt="...">
+                            <div class="prod-card-body2">
+                                <p class="prod-card-text2">Sample image only. Text will go here, should be the name of
+                                    each
+                                    product.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prod-col3">
+                        <div class="prod-card3">
+                            <img src="images/newTablet.png" class="prod-card-img-top3" alt="...">
+                            <div class="prod-card-body3">
+                                <p class="prod-card-text3">Sample image only. Text will go here, should be the name of
+                                    each
+                                    product.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--second row-->
+            <!--
+                <div class="row row-cols-3">
+                    <div class="prod-col1">
+                        <div class="prod-card1">
+                            <img src="images/newTablet.png" class="prod-card-img-top1" alt="...">
+                            <div class="prod-card-body1">
+                                <p class="prod-card-text1">Sample image only. Text will go here, should be the name of
+                                    each
+                                    product. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prod-col2">
+                        <div class="prod-card2">
+                            <img src="images/samplePhone.jpg" class="prod-card-img-top2" alt="...">
+                            <div class="prod-card-body2">
+                                <p class="prod-card-text2">Sample image only. Text will go here, should be the name of
+                                    each
+                                    product.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prod-col3">
+                        <div class="prod-card3">
+                            <img src="images/newTablet.png" class="prod-card-img-top3" alt="...">
+                            <div class="prod-card-body3">
+                                <p class="prod-card-text3">Sample image only. Text will go here, should be the name of
+                                    each
+                                    product.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div> -->
+            <!--end product cards-->
 
         </section>
     </main>
 
 
     <!--Footer-->
-    <nav class="navbar navbar-dark bg-#171717">
-        <div class="container-fluid">
+    <nav class="navbar navbar-dark bg-#171717 fixed-bottom">
+        <div class="container">
             <p class="navbar-text">
                 <a href="#" style="text-decoration: none;">Home </a>
                 <a href="#" style="text-decoration: none;">| About Us </a>

@@ -1,0 +1,71 @@
+.btn{
+    margin-top: 20px;
+    width: 50%
+}
+
+#loginArea{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40%;
+    margin-left: 40%;
+    flex: 1 1 0;
+    border: 5px solid grey;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: grey;
+;
+}
+
+#loginArea > .userNameArea{
+    display: flex;
+    flex: 1 1 0;
+    width: 100%;
+}
+
+#loginArea > .passWordArea{
+    display: flex;
+    flex: 1 1 0;
+    width: 100%;
+}
+
+#loginArea > .passWordArea{
+    padding-top: 20px;
+}
+
+#loginArea > .userNameArea > #userNameTextBox, #loginArea > .passWordArea > #passwordTextBox{
+    width: 180%; 
+}
+
+
+
+@media only screen and (max-width:700px) {
+    
+    .btn{
+        margin-top: 20px;
+        align-items: center;
+    }
+    
+    #loginArea{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 50px;
+        margin-left: 50px;
+        flex: 1 1 0;
+    }
+    
+    #loginArea > .userNameArea{
+        display: flex;
+        flex: 1 1 0;
+        width: 100%;
+    }
+    
+    #loginArea > .passWordArea{
+        display: flex;
+        flex: 1 1 0;
+        width: 100%;
+    }
+}

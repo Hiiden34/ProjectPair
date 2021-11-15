@@ -1,7 +1,20 @@
-.btn{
+a > .btn{
     margin-top: 20px;
+    margin-bottom: 5px;
     width: 50%
 }
+
+.btnSignup{
+    margin-bottom: 10px;
+    margin-top: 0px;
+    width: 50%;
+}
+
+.modal-body > .form-control{
+    margin: 5px;
+}
+
+
 
 #loginArea{
     display: flex;
@@ -45,6 +58,10 @@
     .btn{
         margin-top: 20px;
         align-items: center;
+    }
+
+    .modal-footer > .btn{
+        margin:3    px;
     }
     
     #loginArea{
